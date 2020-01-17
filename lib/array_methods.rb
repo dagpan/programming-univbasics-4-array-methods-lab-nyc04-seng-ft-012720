@@ -11,9 +11,7 @@ def using_sort(array1 = ["Spring", "Summer", "Fall", "Winter"])
 end
 
 def using_reverse(array1 = ["Spring", "Summer", "Fall", "Winter"])
-  array1_rev = []
-  array1.reverse = array1_rev
-  return array1_rev
+  array1.reverse
 end
 
 def using_first(array1 = ["Spring", "Summer", "Fall", "Winter"])
